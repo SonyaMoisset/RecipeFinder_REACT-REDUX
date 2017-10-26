@@ -27,6 +27,12 @@ class SearchRecipes extends Component {
         
     }
 
+    handleChangeIngredients = event => this.setState({ ingredient: event.target.value })
+
+    handleChangeDish = event => this.setState({ dish: event.target.value })
+
+    handleClick = () => this.search()
+
     render() {
         return (
             <Form inline>
@@ -36,7 +42,7 @@ class SearchRecipes extends Component {
                     <FormControl
                         type="text"
                         placeholder="garlic, chicken"
-                        onChange={event => this.setState({ ingredients: event.target.value })} />
+                        onChange={this.handleChangeIngredients} />
                 </FormGroup>
                 {' '}
                 <FormGroup>
@@ -45,9 +51,9 @@ class SearchRecipes extends Component {
                     <FormControl
                         type="text"
                         placeholder="adobo"
-                        onChange={event => this.setState({ dish: event.target.value })} />
+                        onChange={this.handleChangeDish} />
                 </FormGroup>
-                <Button onClick={() => this.search()}>Submit</Button>
+                <Button onClick={this.handleClick}>Submit</Button>
             </Form>
         );
     }

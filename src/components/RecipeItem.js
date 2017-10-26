@@ -21,6 +21,7 @@ class RecipeItem extends Component {
 
         return (
             <div className="recipe-item">
+
                 {
                     this.props.favoriteButton ?
                             this.state.favorited ?
@@ -34,6 +35,7 @@ class RecipeItem extends Component {
                 :
                     <div></div>    
                 }
+
                 <div className="recipe-text">
                     <a href={recipe.href}>
                         <h4>{recipe.title}</h4>
