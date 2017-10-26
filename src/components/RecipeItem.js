@@ -11,7 +11,7 @@ class RecipeItem extends Component {
         }
     }
 
-    favoriteRecipe(recipe) {
+    favorite(recipe) {
         this.props.favoriteRecipe(recipe)
         this.setState({ favorited: true })
     }
@@ -27,7 +27,7 @@ class RecipeItem extends Component {
                                 <div className="star">&#9733;</div>
                                 :
                                 <div
-                                    onClick={() => this.favoriteRecipe(recipe)}
+                                    onClick={() => this.favorite(recipe)}
                                     className="star">
                                     &#9734;
                                 </div>

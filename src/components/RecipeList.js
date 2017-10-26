@@ -5,6 +5,8 @@ import RecipeItem from './RecipeItem'
 
 class RecipeList extends Component {
     render() {
+        console.log('this.props', this.props)
+        
         return (
             <div>
                 {
