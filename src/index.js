@@ -4,8 +4,7 @@ import { BrowserRouter, Switch, Route } from 'react-router-dom'
 import { createStore } from 'redux'
 import { Provider } from 'react-redux'
 
-import App from './components/App'
-import FavoriteRecipeList from './components/FavoriteRecipeList'
+import { App, FavoriteRecipeList } from './containers'
 
 import rootReducer from './reducers'
 
