@@ -1,5 +1,5 @@
 import { combineReducers } from 'redux'
-import { SET_RECIPES, FAVORITE_RECIPE } from '../actions'
+import { SET_RECIPES, FAVORITE_RECIPE } from '../actions/types'
 
 function recipes(state = [], action) {
     switch (action.type) {

@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import { Form, FormGroup, FormControl, ControlLabel, Button } from 'react-bootstrap'
 import { connect } from 'react-redux'
-import { setRecipes } from '../actions'
+import { setRecipes } from '../actions/recipe_actions'
 
 class SearchRecipes extends Component {
     constructor() {
