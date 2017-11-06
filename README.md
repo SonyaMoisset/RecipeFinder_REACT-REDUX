@@ -11,6 +11,13 @@ To see the project:
 - ES6 syntax
 - Templating string
 - Destructuring assignment
+- fetch API
+- React Router
 - Component-based architecture
 - CSS Partials/Imports
    
+### A user can see a list of recipe after entering some ingredients in the search field
+![Home](https://github.com/SonyaMoisset/RecipeFinder_REACT-REDUX/blob/master/home.png)
+
+### A user can star a selection of recipes as their favorite dishes
+![Favorites](https://github.com/SonyaMoisset/RecipeFinder_REACT-REDUX/blob/master/favorites.png)
