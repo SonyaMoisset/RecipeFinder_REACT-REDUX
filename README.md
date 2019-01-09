@@ -1,5 +1,7 @@
 # RecipeFinder
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/SonyaMoisset/RecipeFinder_REACT-REDUX.svg)](https://greenkeeper.io/)
+
 ## A React web application where the user can enter some ingredients and look for recipes
 
 To see the project:
