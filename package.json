@@ -6,7 +6,7 @@
     "react": "16.8.1",
     "react-dom": "16.8.1",
     "react-scripts": "5.0.0",
-    "@snyk/protect": "1.1290.0"
+    "@snyk/protect": "1.1292.0"
   },
   "scripts": {
     "start": "react-scripts start",
