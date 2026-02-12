@@ -17,7 +17,7 @@
     "snyk-protect": "snyk-protect"
   },
   "devDependencies": {
-    "react-bootstrap": "0.32.4",
+    "react-bootstrap": "2.10.10",
     "react-redux": "9.2.0",
     "react-router-dom": "7.5.2",
     "redux": "5.0.1"
