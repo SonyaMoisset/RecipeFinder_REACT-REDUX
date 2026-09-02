@@ -5,7 +5,7 @@
   "dependencies": {
     "react": "16.8.1",
     "react-dom": "16.8.1",
-    "react-scripts": "5.0.0",
+    "react-scripts": "5.0.1",
     "@snyk/protect": "1.1292.3"
   },
   "scripts": {
